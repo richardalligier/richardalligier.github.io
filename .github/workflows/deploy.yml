@@ -23,16 +23,11 @@ jobs:
           python -m pip install -r ./notebooks/requirements.txt
       - name: Build the JupyterLite site
         run: |
-          jupyter lite build --contents notebooks --output-dir dist/lab
+          jupyter lite build --contents notebooks --output-dir dist
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./dist/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
