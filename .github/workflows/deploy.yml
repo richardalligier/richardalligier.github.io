@@ -32,6 +32,9 @@ jobs:
         with:
           source: ./
           destination: ./dist
+      - name: Copy Main Website
+        run: |
+          cp -r ./ dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
