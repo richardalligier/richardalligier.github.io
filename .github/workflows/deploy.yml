@@ -31,14 +31,11 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
-          destination: ./dist
-      - name: Copy Main Website
-        run: |
-          cp -r ./ dist/
+          destination: ./dist/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./dist/_site
 
   deploy:
     needs: build
