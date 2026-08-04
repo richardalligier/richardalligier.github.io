@@ -23,7 +23,7 @@ jobs:
           python -m pip install -r ./notebooks/requirements.txt
       - name: Build the JupyterLite site
         run: |
-          jupyter lite build --contents notebooks --output-dir dist
+          jupyter lite build --contents notebooks --output-dir dist/lab
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
