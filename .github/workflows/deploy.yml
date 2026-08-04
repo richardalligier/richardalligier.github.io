@@ -21,6 +21,9 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r ./notebooks/requirements.txt
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -29,9 +32,6 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           jupyter lite build --contents notebooks --output-dir dist/lab
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
