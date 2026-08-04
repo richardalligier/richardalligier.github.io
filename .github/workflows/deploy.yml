@@ -34,7 +34,8 @@ jobs:
           destination: ./dist/_site
       - name: Copy
         run: |
-          cp -r ./dist/_site/ ./dist/
+          cp -r ./dist/_site/* ./dist/
+          rm -rf ./dist/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
