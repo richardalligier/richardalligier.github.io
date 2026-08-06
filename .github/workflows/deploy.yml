@@ -23,8 +23,8 @@ jobs:
           python -m pip install -r ./notebooks/requirements.txt
       - name: Build the JupyterLite site
         run: |
-          jupyter nbconvert source/prerequis-IA_BASE.ipynb --to notebook --TagRemovePreprocessor.remove_cell_tags='{"hidden","prompt"}' --TagRemovePreprocessor.enabled=True --output prerequis-IA_BASE_corrected.ipynb
-          jupyter nbconvert source/prerequis-IA_BASE.ipynb --to notebook --TagRemovePreprocessor.remove_cell_tags='{"corrected","prompt"}' --TagRemovePreprocessor.enabled=True --output prerequis-IA_BASE.ipynb
+          jupyter nbconvert notebooks/source/prerequis-IA_BASE.ipynb --to notebook --TagRemovePreprocessor.remove_cell_tags='{"hidden","prompt"}' --TagRemovePreprocessor.enabled=True --output notebooks/prerequis-IA_BASE_corrected.ipynb
+          jupyter nbconvert notebooks/source/prerequis-IA_BASE.ipynb --to notebook --TagRemovePreprocessor.remove_cell_tags='{"corrected","prompt"}' --TagRemovePreprocessor.enabled=True --output notebooks/prerequis-IA_BASE.ipynb
           jupyter lite build --contents notebooks --output-dir dist/lab
       - name: Setup Pages
         id: pages
