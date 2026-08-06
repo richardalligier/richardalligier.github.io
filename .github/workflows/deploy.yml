@@ -23,7 +23,7 @@ jobs:
           python -m pip install -r ./notebooks/requirements.txt
       - name: Build the JupyterLite site
         run: |
-          mkdir /notebooks/corrected
+          mkdir notebooks/corrected
           jupyter nbconvert notebooks/source/prerequis-IA_BASE.ipynb --to notebook --TagRemovePreprocessor.remove_cell_tags='{"hidden","prompt"}' --TagRemovePreprocessor.enabled=True --output ../corrected/prerequis-IA_BASE.ipynb
           jupyter nbconvert notebooks/source/prerequis-IA_BASE.ipynb --to notebook --TagRemovePreprocessor.remove_cell_tags='{"hidden","corrected"}' --TagRemovePreprocessor.enabled=True --output ../prerequis-IA_BASE.ipynb
           jupyter lite build --contents notebooks --output-dir dist/lab
