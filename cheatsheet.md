@@ -12,26 +12,26 @@ The typical review (text):
 - provides a concise summary; (one line)
 - addresses the relevance of the work to the OpenSky symposium and its community; (one line)
 - evaluates:
-    - the relevance of the subject of the work; (one line)
+    - the relevance of the work's subject; (one line)
     - the novelty and significance of the work; (one line)
-    - the methodology in relation with the authors' claims: any logical/methodological flaws rendering claims debatable;
-    - if the promised full paper's content is credible regarding the concrete preliminary findings/experiments; ("regular" track only)
-    - if the work is (or will be) re-usable and/or reproducibile: are the code and data provided (or promised); (one line)
+    - the methodology relative to the authors' claims, including any logical or methodological flaws that make the claims debatable;
+    - whether the promised full paper content is credible based on the concrete preliminary findings/experiments; ("regular" track only)
+    - whether the work is (or will be) reusable and reproducible: are code and data provided or promised; (one line)
 - offers suggestions to improve the work.
 
 ## 2. Score
 The score ranges from -3 (strong reject) to 3 (strong accept). This score combines all the addressed/evaluated items in the text. As the OpenSky community promotes open science, the reproducibility have a great weight on the final score. 
 
-As we only evaluate abstracts, it is sometimes difficult to evaluate what would be actually delivered in terms of code/data or in term of experiments. In that regard, if two papers both promise code/data for the full paper, the one actually providing some code/data at the abstract stage should be scored higher on the reproducibility item. The same goes for all the items: what is already present from the abstract stage should be scored higher than what is promised for the full paper.
+Since we only evaluate abstracts, it can be difficult to assess what will actually be delivered regarding code, data, or experiments. Therefore, one paper promising code and data for the full paper should have a reproducibility score lower than one that provides code or data at the abstract. The same applies to all criteria: an element present at the abstract stage should bring a higher score than the same element promised for the full paper.
 
 
-To help you on how to combine all these items, here is a table ranking the different items:
+To help you on how to combine these items, here is a table ranking the different items by weight:
 
 |Weight|Item|Key Question|
 |---|---|---|
 |Highest|Technical Correctness|Are there any logical/methodological flaws or the methodology is completely sound?|
-|High|Reproducibility|Can reader re-implement the work, or better is able to re-use the code and data, or even better build upon this code/data|
-|Medium|Relevance & Novelty & Significance|Does this push the OpenSky community's fields forward, or is it a routine variation? Is the obtained result/method novel & significant?|
+|High|Reproducibility|Can readers re-implement the work, re-use the code and data, or even better build upon this code/data|
+|Medium|Relevance & Novelty & Significance|Does this push the OpenSky community's fields forward, or is it a routine variation? Is the obtained result/method novel and significant?|
 
 
 Here is the scale to each score:
