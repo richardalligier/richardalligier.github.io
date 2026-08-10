@@ -3,3 +3,6 @@ theme: minima
 author: ""
 github_username: ""
 github: []
+
+header_pages:
+  - index.md
