@@ -30,7 +30,7 @@ To help you on how to combine these items, here is a table ranking the different
 |Weight|Item|Key Question|
 |---|---|---|
 |Highest|Technical Correctness|Are there any logical/methodological flaws or the methodology is completely sound?|
-|High|Reproducibility|Can readers re-implement the work, re-use the code and data, or even better build upon this code/data|
+|High|Reproducibility|Can readers re-implement the work, re-use the code and data, or even better build upon this code/data?|
 |Medium|Relevance & Novelty & Significance|Does this push the OpenSky community's fields forward, or is it a routine variation? Is the obtained result/method novel and significant?|
 
 
