@@ -7,7 +7,7 @@ This "cheat sheet" is here to help you to make your review, not to constrain you
 # Typical Deliverable for a Review
 The typical deliverable for each review is a text and a score.
 
-## 1. A Text
+## 1. Text
 The typical review (text):
 - provides a concise summary; (one line)
 - addresses the relevance of the work to the OpenSky symposium and its community; (one line)
@@ -19,7 +19,7 @@ The typical review (text):
     - if the work is (or will be) re-usable and/or reproducibile: are the code and data provided (or promised); (one line)
 - offers suggestions to improve the work.
 
-## 2. A score
+## 2. Score
 The score ranges from -3 (strong reject) to 3 (strong accept). This score combines all the addressed/evaluated items in the text. As the OpenSky community promotes open science, the reproducibility have a great weight on the final score. 
 
 As we only evaluate abstracts, it is sometimes difficult to evaluate what would be actually delivered in terms of code/data or in term of experiments. In that regard, if two papers both promise code/data for the full paper, the one actually providing some code/data at the abstract stage should be scored higher on the reproducibility item. The same goes for all the items: what is already present from the abstract stage should be scored higher than what is promised for the full paper.
