@@ -6,3 +6,6 @@ github: []
 
 header_pages:
   - index.md
+
+resources:
+  - "program.html"
